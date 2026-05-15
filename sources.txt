@@ -1,0 +1,14 @@
+# ProxyGather (проверенные, обновление каждые 30 минут)
+https://raw.githubusercontent.com/Skillter/ProxyGather/refs/heads/master/proxies/working-proxies-all.txt
+https://raw.githubusercontent.com/Skillter/ProxyGather/refs/heads/master/proxies/working-proxies-http.txt
+https://raw.githubusercontent.com/Skillter/ProxyGather/refs/heads/master/proxies/working-proxies-socks5.txt
+
+# FREE_PROXIES_LIST (обновление каждые 10 минут)
+https://raw.githubusercontent.com/Zaeem20/FREE_PROXIES_LIST/master/HTTP.txt
+https://raw.githubusercontent.com/Zaeem20/FREE_PROXIES_LIST/master/SOCKS4.txt
+https://raw.githubusercontent.com/Zaeem20/FREE_PROXIES_LIST/master/SOCKS5.txt
+
+# TheSpeedX (стабильный ежедневный список)
+https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt
+https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks4.txt
+https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt
