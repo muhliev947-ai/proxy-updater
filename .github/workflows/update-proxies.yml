@@ -22,6 +22,12 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
-          git add proxies.txt
-          git diff --staged --quiet || git commit -m "chore: auto-update proxies"
-          git push
+          # Добавляем файл с прокси (даже если его нет, ошибки не будет)
+          git add proxies.txt || true
+          # Если есть изменения — сохраняем, если нет — просто выходим
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: auto-update proxies"
+            git push
+          else
+            echo "No changes to commit"
+          fi
